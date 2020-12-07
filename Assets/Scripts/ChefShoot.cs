@@ -11,7 +11,7 @@ public class ChefShoot : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKey(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             animator.SetBool("shoot", true);
         }
